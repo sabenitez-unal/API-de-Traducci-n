@@ -26,6 +26,7 @@ Para utilizarlo, simplemente ejecuta en la terminal:
 python3 translate.py
 ```
 > Recuerda que debes estar ubicado dentro de la carpeta del repositorio.
+Luego, sigue las instrucciones que se te mencionan en el programa.
 
 ## Licencia
 Este proyecto maneja una licencia de tipo [MIT](https://choosealicense.com/licenses/mit/).
