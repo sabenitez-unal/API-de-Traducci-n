@@ -10,6 +10,8 @@ Iniciativa propia.
 
 
 ## Instalación:
+Manejando el gestor de paquetes [pip](https://pip.pypa.io/en/stable/)
+
 1. Clonar el repositorio `git clone ...`
 2. Entrar a la carpeta clonada
 3. Crear el entorno virtual `python3 -m venv .venv`
@@ -25,3 +27,5 @@ python3 translate.py
 ```
 > Recuerda que debes estar ubicado dentro de la carpeta del repositorio.
 
+## Licencia
+Este proyecto maneja una licencia de tipo [MIT](https://choosealicense.com/licenses/mit/).
