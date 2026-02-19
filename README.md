@@ -23,5 +23,5 @@ Para utilizarlo, simplemente ejecuta en la terminal:
 ```bash
 python3 translate.py
 ```
-* Recuerda que debes estar ubicado dentro de la carpeta del repositorio.
+> Recuerda que debes estar ubicado dentro de la carpeta del repositorio.
 
