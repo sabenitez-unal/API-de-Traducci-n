@@ -6,7 +6,7 @@ Iniciativa propia.
 
 
 ## Estado de proyecto: 
-- ¡En desarrollo! 🛠️
+¡En desarrollo! 🛠️
 
 
 ## Instalación:
