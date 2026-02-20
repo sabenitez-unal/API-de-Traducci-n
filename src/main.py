@@ -1,13 +1,12 @@
-import asyncio
+import asyncio, json
 from translate import translate_text as translate
 
 def main():
-    params = dict()
 
-    params["text"] = input()
+    # Lectura y guardado en diccionario los lenguajes que se manejarán.
+    with open("data/languages.json", "r") as document:
+        languages = json.load(document)
  
-    texto = asyncio.run(translate(params))
-    print(texto)
 
 if __name__ == "__main__":
     main()
