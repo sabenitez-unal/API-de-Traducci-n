@@ -1,0 +1,5 @@
+# Se descarta el entorno virtual
+.venv/
+
+# Se descartan los archivos de configuración de VS Code
+.vscode/
