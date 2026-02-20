@@ -3,3 +3,9 @@
 
 # Se descartan los archivos de configuración de VS Code
 .vscode/
+
+# Se descartan los archivos de caché de Python
+src/__pycache__/
+
+# Se descartan los archivos de scripts temporales.
+script.py
