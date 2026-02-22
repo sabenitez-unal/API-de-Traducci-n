@@ -1,7 +1,7 @@
 from googletrans import Translator
 
 # Función asincrónica debido a que se maneja petición a API.
-async def translate_text(params: dict[str, str]) -> str:
+async def translate_text(text: str, params: dict[str, str]) -> str:
     """
     Traduce un texto de un idioma a otro utilizando un servicio de traducción asincrónico.
     Esta función envuelve la funcionalidad del traductor para manejar la traducción
@@ -36,7 +36,7 @@ async def translate_text(params: dict[str, str]) -> str:
         async with Translator() as translator:
 
             # Traduce segun parámetros dados en el diccionario params.
-            result = await translator.translate(**params)
+            result = await translator.translate(text=text, **params)
 
             # Retorna el texto traducido
             return result.text
